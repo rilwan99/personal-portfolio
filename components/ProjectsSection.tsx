@@ -6,27 +6,27 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Algorit",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Algorit is a tool that simplifies the often confusing visulisation of Solana transactions, particularly for those unfamiliar with cryptocurrency.",
+    image: "/algorit.png",
+    github: "https://github.com/rilwan99/Algorit/tree/main",
+    link: "https://twitter.com/Ril11111/status/1617589958252060674?s=20",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "y00ts dashboard",
+    description: "A real-time dashboard tracking the mints of one of the most anticipated NFT drops on the Solana Blockchain",
+    image: "/y00ts.png",
+    github: "https://github.com/rilwan99/y00ts-dashboard",
+    link: "https://twitter.com/Ril11111/status/1588972421201420288?s=20",
   },
   {
-    name: "Kator Family Photos",
+    name: "Treehoppers",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Treehoppers is a hackathon project which enables retail merchants to transform coupons into NFTs on the blockchain, accessible to users via a user-friendly Telegram bot.",
+    image: "/treehoppers.png",
+    github: "https://github.com/rilwan99/Treehoppers",
+    link: "https://www.youtube.com/watch?v=EzBdCXiMzFM",
   },
 ]
 

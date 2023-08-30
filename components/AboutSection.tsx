@@ -2,17 +2,14 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
+  { skill: "HTML, CSS, JavaScript" },
+  { skill: "React, NextJs" },
   { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Java" },
+  { skill: "Rust" },
+  { skill: "ExpressJs, NestJs" },
+  { skill: "Solidity" },
+  { skill: "Smart Contract Development" },
 ]
 
 const AboutSection = () => {
@@ -30,24 +27,23 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Rilwan and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              <span className="font-bold">{" driven"}</span> final year Information System (IS) undergraduate.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I have expertise in crafting seamless front-end experiences, building scalable and robust APIs, 
+              and orchestrating applications on the cloud.
+              But deep down I'm a crypto geek. Blockchain is a realm where I've dived deep, 
+              be it exploring security vulnerabilities in smart contracts, analyzing whitepapers of new protocols, 
+              or snooping for some on-chain alpha.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+            When I'm not in the tech zone, you'll find either in the gym getting a workout, or in the boxing ring getting a few rounds of sparring in. 
+            I love staying active, traveling to new destinations and catching the latest K-drama hit on netflix.
             </p>
             <br />
             <p>
@@ -55,9 +51,9 @@ const AboutSection = () => {
               <span className="font-bold text-teal-500">
                 never stop growing
               </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
+              and that&#39;s what I strive to do. I have a passion for
               technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
+              possible. I am excited to see where my next venture would take me, and am
               always open to new opportunities. 🙂
             </p>
           </div>
@@ -76,11 +72,11 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/coder.svg"
               alt=""
               width={325}
               height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
+              className="hidden md:block md:relative md:top-3 md:bottom-3 md:left-20 md:z-0"
             />
           </div>
         </div>
