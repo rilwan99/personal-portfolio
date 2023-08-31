@@ -36,13 +36,13 @@ const AboutSection = () => {
             <p>
               I have expertise in crafting seamless front-end experiences, building scalable and robust APIs, 
               and orchestrating applications on the cloud.
-              But deep down I'm a crypto geek. Blockchain is a realm where I've dived deep, 
+              But deep down I&apos;m a crypto geek. Blockchain is a realm where I&apos;ve dived deep, 
               be it exploring security vulnerabilities in smart contracts, analyzing whitepapers of new protocols, 
               or snooping for some on-chain alpha.
             </p>
             <br />
             <p>
-            When I'm not in the tech zone, you'll find either in the gym getting a workout, or in the boxing ring getting a few rounds of sparring in. 
+            When I&apos;m not in the tech zone, you&apos;ll find either in the gym getting a workout, or in the boxing ring getting a few rounds of sparring in. 
             I love staying active, traveling to new destinations and catching the latest K-drama hit on netflix.
             </p>
             <br />
