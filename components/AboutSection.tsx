@@ -44,17 +44,17 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I’m deeply fascinated by the world of crypto — whether it's
+              I&apos;m deeply fascinated by the world of crypto — whether it&apos;s
               analyzing on-chain data, dissecting consensus models, or diving
-              into smart contract vulnerabilities. I'm always exploring new
+              into smart contract vulnerabilities. I&apos;m always exploring new
               ideas and technologies to stay ahead of the curve.
             </p>
             <br />
             <p>
               I believe in never settling and{" "}
               <span className="font-bold text-teal-500">always growing</span>.
-              I'm passionate about pushing the boundaries of what technology can
-              do, and I'm always open to new opportunities that challenge me to
+              I&apos;m passionate about pushing the boundaries of what technology can
+              do, and I&apos;m always open to new opportunities that challenge me to
               grow and create meaningful impact. 😊
             </p>
           </div>
