@@ -1,5 +1,5 @@
-import React from "react"
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
 
 const skills = [
   { skill: "HTML, CSS, JavaScript" },
@@ -10,7 +10,7 @@ const skills = [
   { skill: "ExpressJs, NestJs" },
   { skill: "Solidity" },
   { skill: "Smart Contract Development" },
-]
+];
 
 const AboutSection = () => {
   return (
@@ -28,33 +28,34 @@ const AboutSection = () => {
             </h1>
             <p>
               Hi, my name is Rilwan and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> final year Information System (IS) undergraduate.
+              <span className="font-bold">{"highly motivated"}</span> and
+              <span className="font-bold">{" impact-driven"}</span> Software
+              Engineer with a background in Information Systems from the
+              National University of Singapore (NUS).
             </p>
             <br />
             <p>
-              I have expertise in crafting seamless front-end experiences, building scalable and robust APIs, 
-              and orchestrating applications on the cloud.
-              But deep down I&apos;m a crypto geek. Blockchain is a realm where I&apos;ve dived deep, 
-              be it exploring security vulnerabilities in smart contracts, analyzing whitepapers of new protocols, 
-              or snooping for some on-chain alpha.
+              I specialize in building scalable web applications and robust
+              APIs, with hands-on experience across the full stack. My current
+              work involves developing high-performance internal frameworks and
+              edge middleware at SPH Media, and previously, I worked on
+              blockchain protocol research and smart contract audits at
+              Nethermind.
             </p>
             <br />
             <p>
-            When I&apos;m not in the tech zone, you&apos;ll find either in the gym getting a workout, or in the boxing ring getting a few rounds of sparring in. 
-            I love staying active, traveling to new destinations and catching the latest K-drama hit on netflix.
+              I’m deeply fascinated by the world of crypto — whether it's
+              analyzing on-chain data, dissecting consensus models, or diving
+              into smart contract vulnerabilities. I'm always exploring new
+              ideas and technologies to stay ahead of the curve.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do. I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my next venture would take me, and am
-              always open to new opportunities. 🙂
+              I believe in never settling and{" "}
+              <span className="font-bold text-teal-500">always growing</span>.
+              I'm passionate about pushing the boundaries of what technology can
+              do, and I'm always open to new opportunities that challenge me to
+              grow and create meaningful impact. 😊
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -68,7 +69,7 @@ const AboutSection = () => {
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
             <Image
@@ -82,7 +83,7 @@ const AboutSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;

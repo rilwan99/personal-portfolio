@@ -6,12 +6,12 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Algorit",
+    name: "Risk Dashboard",
     description:
-      "Algorit is a tool that simplifies the often confusing visulisation of Solana transactions, particularly for those unfamiliar with cryptocurrency.",
-    image: "/algorit.png",
-    github: "https://github.com/rilwan99/Algorit/tree/main",
-    link: "https://twitter.com/Ril11111/status/1617589958252060674?s=20",
+      "This dashboard displays the various interests rates for different lending markets deployed on AAVE, a permissionless lending protocol deployed on the Ethereum blockchain",
+    image: "/aave.png",
+    github: "https://github.com/rilwan99/aave-risk-dashboard",
+    link: "https://github.com/rilwan99/aave-risk-dashboard",
   },
   {
     name: "y00ts dashboard",

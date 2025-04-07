@@ -22,9 +22,9 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
-              Final Year NUS student{" "}
+              fullstack software engineer{" "}
             </span>
-            majoring in Information Systems. My passion lies in solving meaningful problems using emerging technologies such as Blockchains.
+            that loves to build and ship products. I specialize in developing scalable web applications and exploring emerging technologies like blockchains and the cloud.
           </p>
           <Link
             to="projects"
